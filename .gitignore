@@ -95,4 +95,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Cloud Datalab
+datalab/.config/*
 
