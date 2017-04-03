@@ -1,0 +1,8 @@
+datalab_local:
+  container_name: datalab_local
+  image: gcr.io/cloud-datalab/datalab 
+  ports:
+    - 8081:8080
+  volumes:
+    - ${PWD}:/content
+
